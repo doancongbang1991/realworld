@@ -1,60 +1,63 @@
 # ![RealWorld Example Applications](media/realworld.png)
 
-> A Collection & Specification for Exemplary Frontend and Backend Codebases 🏅
+### Stay on the bleeding edge — [join our Gitter room!](https://gitter.im/realworld-dev/main) 🎉
 
-[![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)]() [![Gitter](https://img.shields.io/gitter/room/realworld-dev/main.svg)](https://gitter.im/realworld-dev/main) [![npm](https://img.shields.io/npm/v/realworld.svg)]() [![license](https://img.shields.io/github/license/gothinkster/realworld.svg)]() [![Twitter](https://img.shields.io/twitter/follow/gothinkster.svg?style=social&label=Follow)](https://twitter.com/gothinkster)
+[![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) [![Gitter](https://img.shields.io/gitter/room/realworld-dev/main.svg)](https://gitter.im/realworld-dev/main) [![Twitter](https://img.shields.io/twitter/follow/gothinkster.svg?style=social&label=Follow)](https://twitter.com/gothinkster)
 
+<p align="center">
+<img src="media/stacks_hr.gif"  />
+</p>
 
+<a href="https://demo.realworld.io/"><img src="media/conduit_l.png" align="right" width="250px" /></a>
 
-<a href="https://demo.realworld.io/"><img src="media/conduit_l.png" align="right" width="300px" /></a>
+### See how *the exact same* Medium.com clone (called [Conduit](https://demo.realworld.io)) is built using any of our supported [frontends](#frontends) and  [backends](#backends). Yes, you can mix and match them, because **they all adhere to the same [API spec](spec/)** 😮😎
 
-Read the [**full blog post announcing RealWorld on Medium.**](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5)
+While most "todo" demos provide an excellent cursory glance at a framework's capabilities, they typically don't convey the knowledge & perspective required to actually build _real_ applications with it.
 
-**TL;DR** — See how *the exact same* real world blogging platform is built using [React/Angular](#frontends) on top of [Node/Rails/Django](#backends) (and even more stacks coming soon). Yes, you can mix and match them, because **they all adhere to the same [API spec](spec/)** 😮😎
+RealWorld solves this by allowing you to choose any frontend (React, Angular 2, & more) and any backend (Node, Django, & more) and see how they power a real world, beautifully designed fullstack app called "[Conduit](https://demo.realworld.io)".
 
-
-### Why?
-
-While most demos/tutorials provide an excellent cursory glance at a framework's capabilities, they typically don't convey the knowledge & perspective required to actually build "real" applications with it.
-
-### How does it work?
-
-You can choose any frontend (React, Angular 2, etc) and any backend (Node, Django, etc) and see how they power a real world, beautifully designed fullstack app called "Conduit" [(demo)](https://demo.realworld.io/).
-
-### Wait, I can use _any_ frontend with _any_ backend?
-
-Yup! The frontends & backends adhere to the same [API spec](api/), so you can mix & match any desired frontend/backend combo.
+*Read the [full blog post announcing RealWorld on Medium.](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5)*
 
 
-# What frontends and backends do you currently support?
+# Frontends
+>_Sorted by popularity every 24 hours._ 
 
-All of our stacks are built & reviewed by the OSS community. We're always working to [add more stacks to this list](#upcoming).
-
-### Frontends
-
-| [Angular 2+](https://github.com/gothinkster/angular2-realworld-example-app) | [React / Redux](https://github.com/gothinkster/react-redux-realworld-example-app) | [Angular 1.5+](https://github.com/gothinkster/angularjs-realworld-example-app) |
+| 🏅 | 🏅 | 🏅 |
 | :---:         |     :---:      |          :---: |
-| [![Angular 2](https://raw.githubusercontent.com/gothinkster/angular2-realworld-example-app/master/logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/angular2-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/angular2-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/angular2-realworld-example-app) | [![React / Redux](https://raw.githubusercontent.com/gothinkster/react-redux-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/react-redux-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/react-redux-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/react-redux-realworld-example-app) | [![Angular 1.5+](https://raw.githubusercontent.com/gothinkster/angularjs-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/angularjs-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/angularjs-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/angularjs-realworld-example-app) |
+| [**React / Redux**<br />![React / Redux](https://raw.githubusercontent.com/gothinkster/react-redux-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/react-redux-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/react-redux-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/react-redux-realworld-example-app)| [**Elm**<br />![Elm](https://cloud.githubusercontent.com/assets/556934/25448178/3e7dc5c0-2a7d-11e7-8069-06da5169dae6.png) ![Star](https://img.shields.io/github/stars/rtfeldman/elm-spa-example.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/rtfeldman/elm-spa-example.svg?style=social&label=Fork)](https://github.com/rtfeldman/elm-spa-example)| [**Angular 4+**<br />![Angular 4+](https://raw.githubusercontent.com/gothinkster/angular2-realworld-example-app/master/logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/angular-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/angular-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/angular-realworld-example-app) | 
+| [**Angular 1.5+**<br />![Angular 1.5+](https://raw.githubusercontent.com/gothinkster/angularjs-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/angularjs-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/angularjs-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/angularjs-realworld-example-app)| [**React / MobX**<br />![React / MobX](https://raw.githubusercontent.com/gothinkster/react-mobx-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/react-mobx-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/react-mobx-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/react-mobx-realworld-example-app)| [**Crizmas MVC**<br />![Crizmas MVC](https://raw.githubusercontent.com/gothinkster/crizmas-mvc-realworld-example-app/master/crizmas.png) ![Star](https://img.shields.io/github/stars/gothinkster/crizmas-mvc-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/crizmas-mvc-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/crizmas-mvc-realworld-example-app) | 
 
+Work In Progress: **[Ember](https://github.com/gothinkster/realworld/issues/22) | [Vue](https://github.com/gothinkster/realworld/issues/7) | [React+Relay](https://github.com/gothinkster/realworld/issues/48) | [Svelte](https://github.com/gothinkster/realworld/issues/19) | [Aurelia](https://github.com/gothinkster/realworld/issues/27) | [ClojureScript](https://github.com/gothinkster/realworld/issues/61) | [Mithril](https://github.com/gothinkster/realworld/issues/69) | [Vanilla JS (Web Components)](https://github.com/gothinkster/realworld/issues/111)**
 
+# Backends
+>_Sorted by popularity every 24 hours._ 
 
-### Backends
-
-| [Node / Express](https://github.com/gothinkster/node-express-realworld-example-app) | [Django](https://github.com/gothinkster/django-realworld-example-app) | [Rails](https://github.com/gothinkster/rails-realworld-example-app) |
+| 🏅 | 🏅 | 🏅 |
 | :---:         |     :---:      |          :---: |
-| [![Node/Express](https://raw.githubusercontent.com/gothinkster/node-express-realworld-example-app/master/project-logo.png)![Star](https://img.shields.io/github/stars/gothinkster/node-express-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/node-express-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/node-express-realworld-example-app) | [![Django](https://raw.githubusercontent.com/gothinkster/django-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/django-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/django-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/django-realworld-example-app) | [![Rails](https://raw.githubusercontent.com/gothinkster/rails-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/rails-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/rails-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/rails-realworld-example-app) |
+| [**Node / Express**<br />![Node / Express](https://raw.githubusercontent.com/gothinkster/node-express-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/node-express-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/node-express-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/node-express-realworld-example-app)| [**Laravel**<br />![Laravel](https://github.com/gothinkster/laravel-realworld-example-app/blob/master/logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/laravel-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/laravel-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/laravel-realworld-example-app)| [**Django**<br />![Django](https://raw.githubusercontent.com/gothinkster/django-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/django-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/django-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/django-realworld-example-app) | 
+| [**Rails**<br />![Rails](https://raw.githubusercontent.com/gothinkster/rails-realworld-example-app/master/project-logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/rails-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/rails-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/rails-realworld-example-app)| [**CakePHP**<br />![CakePHP](https://github.com/gothinkster/cakephp-realworld-example-app/raw/master/logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/cakephp-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/cakephp-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/cakephp-realworld-example-app)| [**ASP.NET Core**<br />![ASP.NET Core](https://raw.githubusercontent.com/gothinkster/aspnetcore-realworld-example-app/master/logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/aspnetcore-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/aspnetcore-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/aspnetcore-realworld-example-app) | 
+| [**Kotlin / Spring**<br />![Kotlin / Spring](https://raw.githubusercontent.com/gothinkster/kotlin-spring-realworld-example-app/master/kotlin-spring.png) ![Star](https://img.shields.io/github/stars/gothinkster/kotlin-spring-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/kotlin-spring-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/kotlin-spring-realworld-example-app)| [**Koa / Knex**<br />![Koa / Knex](https://github.com/gothinkster/koa-knex-realworld-example/raw/master/logo.png) ![Star](https://img.shields.io/github/stars/gothinkster/koa-knex-realworld-example.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/koa-knex-realworld-example.svg?style=social&label=Fork)](https://github.com/gothinkster/koa-knex-realworld-example)| [**QEWD.js**<br />![QEWD.js](https://cloud.githubusercontent.com/assets/556934/25587724/182f95fc-2e5a-11e7-83db-1541c1bee128.png) ![Star](https://img.shields.io/github/stars/gothinkster/QEWD-realworld-example-app.svg?style=social&label=Star) ![Fork](https://img.shields.io/github/forks/gothinkster/QEWD-realworld-example-app.svg?style=social&label=Fork)](https://github.com/gothinkster/QEWD-realworld-example-app) | 
 
-### [View upcoming stacks (WIPs)](https://github.com/gothinkster/realworld/issues?q=is%3Aopen+is%3Aissue+label%3Awip)
+
+Work In Progress: **[Clojure](https://github.com/gothinkster/realworld/issues/57) | [Crystal + Kemal](https://github.com/gothinkster/realworld/issues/112) | [Dotnet Core (C#)](https://github.com/gothinkster/realworld/issues/31) | [Dropwizard](https://github.com/gothinkster/realworld/issues/95) | [Elixir + Phoenix](https://github.com/gothinkster/realworld/issues/17) | [F#](https://github.com/gothinkster/realworld/issues/58) | [Falcon + GAE](https://github.com/gothinkster/realworld/issues/59) | [Firebase + GCP Cloud](https://github.com/gothinkster/realworld/issues/21) | [Flask](https://github.com/gothinkster/realworld/issues/51) | [Go + Gin](https://github.com/gothinkster/realworld/issues/9) | [Go + Gorilla mux](https://github.com/gothinkster/realworld/issues/99) | [Go + net/http](https://github.com/gothinkster/realworld/issues/45) | [HapiJS](https://github.com/gothinkster/realworld/issues/40) | [Haskell / Servant](https://github.com/gothinkster/realworld/issues/73) | [Loopback 3.0](https://github.com/gothinkster/realworld/issues/105) | [Nim](https://github.com/gothinkster/realworld/issues/60) | [Node + GraphQL](https://github.com/gothinkster/realworld/issues/46) | [Node (Lambda + DynamoDB)](https://github.com/gothinkster/realworld/issues/37) | [Phalcon](https://github.com/gothinkster/realworld/issues/88) | [Rust](https://github.com/gothinkster/realworld/issues/24) | [Scala + Play](https://github.com/gothinkster/realworld/issues/63) | [Slim](https://github.com/gothinkster/realworld/issues/50) | [Spring (w/ Spring Boot)](https://github.com/gothinkster/realworld/issues/55) | [Symfony](https://github.com/gothinkster/realworld/issues/66)**
+
+
+# Mobile
+
+Work In Progress: **[React Native](https://github.com/gothinkster/realworld/issues/10) | [Ionic 2+](https://github.com/gothinkster/realworld/issues/16) | [Xamarin](https://github.com/gothinkster/realworld/issues/70)**
+
+
+# Create a new stack
+
+[![Create a new stack](media/upcoming_stacks.png)](/spec)
+
+### Know any of these frameworks (or one that isn't listed)?<br />[**Create a new framework implementation >>>**](/spec)
+
+Or you can [view upcoming stacks (WIPs)](https://github.com/gothinkster/realworld/issues?q=is%3Aopen+is%3Aissue+label%3Awip)
 
 Note: All stacks that are a WIP are experimental and incomplete.
 
 Don't expect everything to work perfectly out of the box!
-
-### Create a new stack
-
-[![Create a new stack](media/upcoming_stacks.png)](/spec)
-
-Know any of these frameworks (or one that isn't listed)? [**Create a new framework implementation >>>**](/spec)
 
 <br />
 
@@ -113,16 +116,32 @@ Albert is a Software Engineer, DevOps ninja, and author of many technical books 
 [Thinkster](https://thinkster.io) creates high quality resources that help Javascript developers succeed. The RealWorld project wouldn't exist without their funding, so please consider investing in [a Pro subscription](https://thinkster.io/pro) to help support us!
 
 
-#### [James Brewer](https://twitter.com/brwr_) - Advisor, Creator of RealWorld Django
+#### [James Brewer](https://twitter.com/brwr_) - Admin
 
 <img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/4095660?v=3&s=100">
 
 James is a Software Engineer at Square and a contributor to the Django project. He created & maintains the RW Django codebase and continually provides guidance for the RealWorld project itself.
 
-#### [Val Karpov](https://twitter.com/code_barbarian) - Creator of RealWorld React & Redux
-<img align="left" width="40" height="40" src="https://avatars2.githubusercontent.com/u/1620265?v=3&s=100">
+#### [Anish Karandikar](https://github.com/anishkny) - Admin
 
-Val Karpov is a Software Engineer at Booster Fuels and is a core contributor to Mongoose. He created & maintains the RealWorld React/Redux codebase.
+<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/357499?v=3&s=100">
+
+MathWorker, ex-Google, ex-Computational Fluid Dynamicist, forever lover of tech & humanities ❤️
+
+
+#### [Sandeesh S.](https://github.com/SandeeshS) - Admin
+
+<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/16877877?v=3&s=100">
+
+Full stack developer, Laravel enthusiast, Digital marketing specialist and an avid gamer.
+
+
+#### [Cameron Chapman](https://github.com/Cameron-C-Chapman) - Admin
+
+<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/1323581?v=3&s=100">
+
+Cameron Chapman is a Software Engineer at Argus Health. He's an open source enthusiast and is helping to teach a local web development boot camp at Kansas University.
+
 
 
 ## Special thanks to...
